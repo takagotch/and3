@@ -7,13 +7,13 @@
 		android:onClick="btnSatellite_onClick"
 		android:text="PHOTO" />
 	<Button
-		android:id=""
-		android:layout=""
-		android:layout_height=""
-		android:onClick=""
-		android:text="" />
-	<fragmetn xmlns:android=""
-		tools:context="" />
+		android:id="@+id/btnNormal"
+		android:layout="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="btnNormal_onClick"
+		android:text="MAP" />
+	<fragmetn xmlns:android="http://schemas.android.com/apk/res/android"
+		tools:context="tky.com.mapbutton.MapsActivity" />
 </LinearLayout>
 
 
