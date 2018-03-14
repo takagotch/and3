@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orinetation="vertical">
+	<Button
+		android:id="@+id/btnSatellite"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="btnSatellite_onClick"
+		android:text="PHOTO" />
+	<Button
+		android:id=""
+		android:layout=""
+		android:layout_height=""
+		android:onClick=""
+		android:text="" />
+	<fragmetn xmlns:android=""
+		tools:context="" />
+</LinearLayout>
+
+
