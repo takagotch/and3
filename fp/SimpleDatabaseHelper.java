@@ -19,12 +19,20 @@ public class SimpleDatabaseHelper extends SQLiteOpenHelper{
   
   @Override
   public void onCreate(SQLiteDatabase db){
-    db.execSQL();
-    db.execSQL();
-    db.execSQL();
-    db.execSQL();
-    db.execSQL();
-    db.execSQL();
+    db.execSQL("CREATE TABLE books (" +
+	"isbn TEXT PRRMARY KEY, title TEXT, price INTEGER)");
+    db.execSQL("INSERT INTO books(isbn, title, price)" +
+	" VALUES('978-4-7980-4179-2',
+	'TITLE', 3000)");
+    db.execSQL("INSERT INTO books(isbn, title, price)" +
+	" VALUES('978-4-7741-8030-4',
+	'TITLE', 2680)");
+    db.execSQL("INSERT INTO books(isbn, title, price)" +
+	"VALUES('111-1-1111-1111-1', 'TITLE', 2680)");
+    db.execSQL("INSERT INTO books(isbn, title, price)" +
+	"VALUES('222-2-2222-2222-2', 'TITLE', 2780)");
+    db.execSQL("INSERT INTO books(isbn, title, price)" +
+	"VALUES('222-2-2222-2222-3', 'TITLE', 3200)");
   }
 
   @Override
