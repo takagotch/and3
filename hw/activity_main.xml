@@ -16,6 +16,12 @@
 	  android:layout_below="@+id/btnPlay"
 	  android:max="10"
 	  android:prgress="5" />
+  <Button
+	  android:id="@+id/btnRecord"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:onClick="btnRecord_onClick"
+	  android:text="RECORD" />
 </RelativeLayout>
 
 
