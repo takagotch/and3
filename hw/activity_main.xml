@@ -3,6 +3,12 @@
 	  android:layout_width="wrap_content"
 	  android:layout_height="wrap_content"
 	  android:text="@+id/txtResult" />
+  <Button
+	  android:id="@+id/btnPlay"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:onClick="btnPlay_onClick"
+	  android:text="PLAY" />
 </RelativeLayout>
 
 
