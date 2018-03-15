@@ -16,55 +16,55 @@
 		android:onClick="onDelete"
 		android:text="DELETE" />
 	<Button
-		android:id=""
-		android:layout_width=""
-		android:layout_height=""
-		android:onClick=""
-		android:text="" />
+		android:id="@+id/btnSearch"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="onSearch"
+		android:text="SEARCH" />
 	<TableLayout
-		android:layout_width=""
-		android:layout_height=""
-		android:stretchColumns="">
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:stretchColumns="1">
 		<TabaleRow
-			android:layout_width=""
-			android:layout_height="">
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
 			<TextView
-				android:id=""
-				android:layout_width=""
-				android:layout_height=""
-				android:text="" />
+				android:id="@+id/tvIsbn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ISBNCODE" />
 			<EditText
-				android:id=""
-				android:layout_width=""
-				android:layout_height="">
+				android:id="@+id/txtIsbn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
 				<requestFocus />
 			</EditText>
 		</TableRow>
 		<TableRow
-			android:layout_width=""
-			android:layout_height="">
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
 			<TextView
-				android:id=""
-				android:layout_width=""
-				android:layout_height=""
-				android:text="" />
+				android:id="@_id/tvTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TITLE" />
 			<EditText
-				android:id=""
-				android:layout_width=""
-				android:layout_height="" />
+				android:id="@+id/txtTitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
 		</TableRow>
 		<TableRow
-			android:layout_width=""
-			android:layout_height="">
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
 			<TextView
-				android:id=""
-				android:layout_width=""
-				android:layout_height=""
-				android:text="" />
+				android:id="@+id/tvPrice"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="PRICE" />
 			<EditText
-				android:id=""
-				android:layout_width=""
-				android:layout_height="" />
+				android:id="@+id/txtPrice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
 		</TableRow>
 	</TableLayout>
 </LinearLayout>
