@@ -29,8 +29,27 @@ public class MainActivity extends AppCompatActivity{
 	ActivityCompat.requestPermission();
 	return;
       }
-      Button btnRecord = ()findViewById();
-      if(){}
+      Button btnRecord = (Button)findViewById(R.id.btn.Record);
+      if(!isRec){
+        rec.setAudioSource(MediaRecorder.AudioSource.MIC);
+	rec.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+	rec.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
+	rec.setOutputFile(Environment.getExternalStoragePublishDirectory(
+		Environment.DIRECTOY_MUSIC).getPath() + "/sound.mp3");
+	try{
+	   rec.prepare();
+	} catch (IllegalStateException | IOException e){
+	  e.printStackTrace();
+	}
+	rec.start();
+	isRec = true;
+	btnRecord.setText("STOP");
+      } else {
+        rec.stop();
+	rec.reset();
+	isRec = false;
+	btnRecord.setText("RECORD");
+      }
     }
   }
 
