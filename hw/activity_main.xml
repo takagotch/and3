@@ -9,6 +9,13 @@
 	  android:layout_height="wrap_content"
 	  android:onClick="btnPlay_onClick"
 	  android:text="PLAY" />
+  <SeekBar
+	  android:id="@+id/seek"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_below="@+id/btnPlay"
+	  android:max="10"
+	  android:prgress="5" />
 </RelativeLayout>
 
 
