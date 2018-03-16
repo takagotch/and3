@@ -80,7 +80,10 @@
 		android:layout="match_parent"
 		android:layout_height="wrap_content"
 		android:onClick="btnSave_onClick"
-		android:text="SAVE" />
+		android:text="SAVE"
+		//
+		android:onClick="btn_onClick"
+		android:text="SETTING" />
 	<EditText
 		android:id="@_id/txtMemo"
 		android:layout_width="match_parent"
