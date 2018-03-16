@@ -15,5 +15,12 @@
 		android:layout_height="wrap_content"
 		android:onClick="btnBack_onClick"
 		android:text="DISPLAY" />
+	<EditText
+		android:id="@+id/txtName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName">
+	</EditText>
+
 </LinearLayout>
 
