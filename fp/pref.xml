@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 <EditTextPreference
-	android:defaultValue=""
-	android:>
+	android:defaultValue="GUEST"
+	android:key="edittext_name"
+	android:summary="USER"
+	android:title="USER" />
+<EditTextPreference
+	android:defaultValue="123abc"
+	android:key="edittext_pw"
+	android:summary="PASS"
+	android:title="PASS" />
+<EditTextPreference
+	android:defaultValue="20"
+	android:key="edittext_name"
+	android:summary="AGE"
+	android:title="AGE" />
+</PreferenceScreen>
 
