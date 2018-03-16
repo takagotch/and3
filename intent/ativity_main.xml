@@ -1,4 +1,12 @@
 <EditText
-	android:text="tel:00-0000-0000">
+	android:text="tel:00-0000-0000"
+	android:text="contetn://contacts/people/1"
+	android:text="mailto:tky@ex.com"
+	android:text="TEXT">
 </EditText>
+
+Intent i = new Intent(Intent.ACTION_SENDTO,
+  Uri.parse(txtKeywd.getText().toString()));
+
+
 
