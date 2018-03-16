@@ -1,0 +1,9 @@
+<manifest>
+	<application>
+		<activity android:name=".MyConfigActivity">
+		</activity>
+
+	</appclication>
+
+</manifest>
+

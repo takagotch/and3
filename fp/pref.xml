@@ -17,3 +17,74 @@
 	android:title="AGE" />
 </PreferenceScreen>
 
+
+//MainActivity8.java
+<CheckBoxPreference
+	android:defaultValue="true"
+	android:key="chk"
+	android:summary="CKECH ON"
+	android:title="TITLE" />
+
+<SwitchPrefrence
+	android:defaultValue="true"
+	android:key="switch"
+	android:summary="CHECK ON"
+	android:title="TITLE" />
+
+<ListPreference
+	android:defaultValue="A"
+	android:entries="@array/blood_items"
+	android:entryValues="@array/blood_items"
+	android:key="list"
+	android:summary="SELECT"
+	android:title="BLOOD_ITEMS" />
+
+<MultiSelectListPreference
+	android:entries="@array/os_items"
+	android:entryValues="@array/os_items"
+	android:key="multi"
+	android:summary="CHECK"
+	android:title="OS" />
+
+<RingtonPreference
+	android:key="sound"
+	android:ringtone="all"
+	android:showDefault="true"
+	android:showSilent="true"
+	android:summary="RING"
+	android:title="RING" />
+
+<PreferenceCategory android:title="PROFILE">
+	<EditTextPreference
+		android:defaultValue="GUEST"
+		android:key="edittext_name"
+		android:summary="PROFILE"
+		android:title="USER" />
+	<ListPreference
+		android:defaultValue="A"
+		android:entries="@array/blood_items"
+		android:entryValues="@array/blood_items"
+		android:key="list"
+		android:summary="SELECT"
+		android:title="BLOOD_ITEMS" />
+</PreferenceCategory>
+<PreferenceCategory android:title="OPTIONS">
+	<CheckBoxPreference
+		android:defaultValue="true"
+		android:key="chk"
+		android:summary="CHECK"
+		android:title="CHECK" />
+</PreferenceCategory>
+
+
+
+
+
+
+
+
+
+
+
+
+
