@@ -29,12 +29,18 @@ public class CanvasView extends View {
   }
 
   private void init(){
-  
+    p = new Paint();
+    p.setColor(Color.BLUE);
+    p.setStrokeWidth(3);
+    p.setStyle(Paint.Style.STROKE);
+    p.setStrokeJoin(Paint.Join.ROUND);
+    path = new Path();
   }
 
   @Override
   protected void onDraw(Canvas canvas){
-  
+    super.onDraw(canvas);
+    canvas.drawPath(path, p);
   }
 
   @Override
@@ -42,6 +48,12 @@ public class CanvasView extends View {
     switch(event.getAction()){
       case MotionEvent.ACTION_DOWN:
 	      path.moveTo(event.getX(), event.getY());
+	      break;
+      case MotionEvent.ACTION_MOVE:
+	      path.lineTo();
+	      break;
+      case MotionEvent.ACTION_UP:
+	      path.lineTo(event.getX(), event.getY());
 	      break;
     }
     invalidate();
