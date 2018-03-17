@@ -110,6 +110,17 @@ public class SimpleView extends View {
   //
   @Override
   protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
+    Paint p = new Paint();
+    p.setColor(Color.CYAN);
+    p.setStrokeWidth(5);
+    p.setTypeface(Typeface.SERIF);
+    p.setTextSize(50);
+    p.setTextAlign(Paint.Align.CENTER);
+    p.setTextScaleX(1.5f);
+    p.setTextSkewX(-0.5f);
+    canvas.drawText("", 400, 300, p);
   }
   //
 }
