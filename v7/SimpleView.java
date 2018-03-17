@@ -70,8 +70,14 @@ public class SimpleView extends View {
 
   //
   @Override
-  protected void onDraw(){
-  
+  protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
+    Paint p = new Paint();
+    p.setColor(Color.CYAN);
+    p.setStrokeWidth(5);
+    p.setStyle(Paint.Style.FILL_AND_STROKE);
+    canvas.drawRect(100, 100, 400, 400, p);
   }
 }
 
