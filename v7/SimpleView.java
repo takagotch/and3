@@ -122,6 +122,6 @@ public class SimpleView extends View {
     p.setTextSkewX(-0.5f);
     canvas.drawText("", 400, 300, p);
   }
-  //
+ 
 }
 
