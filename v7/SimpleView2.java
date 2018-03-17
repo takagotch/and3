@@ -30,6 +30,20 @@ public class SimpleView extends View {
     canvas.rotate(60);
     canvas.drawRect(0, 0, 200, 200, p);
   }
+
+  //
+  @Override
+  protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
+    p.setColor(Color.WHITE);
+    p.setStrokeWidth(Color.CYAN);
+    p.setStyle(Paint.Style.STROKE);
+    path.moveTo(150, 200);
+    path.lineTo(800, 500);
+    path.lineTo(200, 150);
+    canvas.drawPath(path, p);
+  }
 }
 
 
