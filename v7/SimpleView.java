@@ -79,5 +79,28 @@ public class SimpleView extends View {
     p.setStyle(Paint.Style.FILL_AND_STROKE);
     canvas.drawRect(100, 100, 400, 400, p);
   }
+
+  //
+  @Override
+  protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
+    Paint p = new Piant();
+    p.setColor(Color.CYAN);
+    p.setStyleWidth(20);
+    p.setStyle(Paint.Style.FILL_AND_STROKE);
+    canvas.drawCircle(200, 200, 100, p);
+    p.setColor(Color.GREEN);
+    canvas.drawOval(new RectF(200, 400, 800, 800), p);
+  }
+
+  //
+  @Override
+  protected void onDraw(Canvas canvas){
+  
+  }
+
+  //
+  //
 }
 
