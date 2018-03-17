@@ -4,8 +4,10 @@
 
 	<view
 		android:id="@+id/sv"
-		class="com.tky.canvasbasic.SimpleView"
+		class="com.tky.canvasbasic.SimpleView" //"com.tky.surfacebasic.SimpleSurface"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" />
 </RelativeLayout>
+
+
 
