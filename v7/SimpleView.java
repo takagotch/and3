@@ -46,14 +46,32 @@ public class SimpleView extends View {
 
   //
   @Override
-  protected void onDraw(){
-    super.onDraw();
-    canvas.drawColor();
+  protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
     Paint p = new Paint();
-    p.setColor();
-    p.setStroke();
-    p.setStrokeCap();
-    canvas.drawLine();
+    p.setColor(Color.CYAN);
+    p.setStroke(10);
+    p.setStrokeCap(Paint.Cap.ROUND);
+    canvas.drawLine(10, 20, 800, 550, p);
+  }
+  
+  //
+  @Override
+  protected void onDraw(Canvas canvas){
+    super.onDraw(canvas);
+    canvas.drawColor(Color.WHITE);
+    Paint p = new Paint();
+    p.setColor(Color.CYAN);
+    p.setStrokeWidth(10);
+    flaot[] ps = { 50, 100, 350, 350, 350,
+      575, 100, 575, 100, 720, 350, 900, 100 };
+  }
+
+  //
+  @Override
+  protected void onDraw(){
+  
   }
 }
 
