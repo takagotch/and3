@@ -3,18 +3,20 @@
 	xmlns:tools="http://schemas.android.com/tools" >
 	<Button
 		android:id="@_id/btn"
-		android:layout_width="match_parent"
+		android:layout_width="match_parent" //"wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_below="@id/txtName"
+		android:layout_alignEnd="@id/txtDate"
+		android:layout_alignRight="@id/txtDate"
 		android:onClick="btn_onClick"
-		androit:text="DIALOG" />
+		androit:text="DIALOG" //"DATE" />
 
 	<EditText
 		android:id="@+id/txtName"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:ems="10"
-		android:inputType="textPersonName">
+		android:inputType="textPersonName" // "date" />
 
 </RelativeLayout>
 
