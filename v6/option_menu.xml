@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/item1"
+		android:icon="@drawable/menu1"
+		android:orderInCategory="0"
+		android:title="@string/home"
+		android:showAsAction="never">
+	</item>
+	<item
+		android:id="@+id/item2"
+		android:icon="@drawable/menu2"
+		android:orderInCategory="1"
+		android:title="@string/help">
+		<menu>
+			<item
+				android:id="@+id/item3"
+				android:icon="@drawable/menu3"
+				android:orderInCategory="0"
+				android:title="@string/search">
+			</item>
+		</menu>
+	</item>
+</menu>
+
+
