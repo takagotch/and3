@@ -4,3 +4,22 @@
 	android:orientaion="vertical">
 </LinearLayout>
 
+//activity_main.xml
+<LinearLayout xmlns:android="http://schmas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" >
+	<Button
+		android:id="@+id/btn1"
+		android:layout_marginLeft="50dp"
+		android:layout_marginStart="50dp"
+		android:layout_marginTop="50dp"
+		android:text="MARGIN" />
+	<Button
+		android:id="@+id/btn2"
+		android:paddingLeft="50dp"
+		android:paddingStart="50dp"
+		android:paddingTop="50dp"
+		android:text="PADDING" />
+</LinearLayout>
+
+
+
