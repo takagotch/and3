@@ -44,4 +44,14 @@ public boolean onTouchEvent(MotionEvent event){
 </set>
 
 
+//addListener
+public void addListener(Animator.AnimatorListener listener)
+//onAnimationCancel(Animator a)
+//onAnimationEnd(Animator a)
+//onAnimationRepeat(Animator a)
+//onAnimationStart(Animatior a)
+
+
+
+
 
