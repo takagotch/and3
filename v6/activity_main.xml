@@ -8,5 +8,13 @@
 		android:layout_below="@id/txtName"
 		android:onClick="btn_onClick"
 		androit:text="DIALOG" />
+
+	<EditText
+		android:id="@+id/txtName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textPersonName">
+
 </RelativeLayout>
 
