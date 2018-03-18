@@ -52,6 +52,12 @@ public void addListener(Animator.AnimatorListener listener)
 //onAnimationStart(Animatior a)
 
 
-
+//MainActivity.java
+@Override
+protected void onCreate(Bundle savedInstanceState){
+  super.onCreate(savedInstanceState);
+  setTheme(R.style.TkyTheme);
+  setContentView(R.layou.activity_main);
+}
 
 
