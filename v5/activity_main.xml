@@ -3,12 +3,39 @@
 	android:orientation="vertical">
 	<Button
 		android:id="@+id/btn1"
-		android:text="BUTTON1" />
+		android:layout_gravity="center_horizontal" //"top"
+		android:text="BUTTON1"
+		android:minHeight="192dp"
+		android:maxWidth="256dp" />
 	<Button
 		android:id="@+id/btn2"
+		android:layout_wigtht="3"
+		android:layout_gravity="end" //"bottom"
 		android:text="BUTTON2" />
 	<Button
 		android:id="@+id/btn3"
-		android:text="BUTTON3" />
+		android:text="BUTTON3"
+		android:layout_gravity="center_vertical"
+		android:layout_weight="2" />
+
+	<Button
+		android:id="@+id/btn2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@id/btn1"
+		android:layout_toEndOf="@id/btn1"
+		android:layout_toRightOf="@id/btn1"
+		android:text="2" />
+	<Button
+		android:id="@+id/button3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@id/btn1"
+		android:layout_alignStart="@id/btn1"
+		android:layout_below="@id/btn1"
+		android:layout_marginLeft="50dp"
+		android:layout_marginStart="50dp"
+		android:layout_marginTop="50dp"
+		android:text="3" />
 </LinearLayout>
 
