@@ -28,4 +28,31 @@
 	android:toDegrees="180">
 </rotate>
 
+<translate xmlns:android="http://schmas.android.com/apk/res/android"
+	android:duratoin=""
+	android:fromXDelta="0%p"
+	android:fromYDelta="0%p"
+	android:repeatCount="infinite"
+	android:repeatMode="reverse"
+	android:toXDelta="100%p"
+	android:toYDelta="100%p">
+</translate>
+
+<set xmlns:android="http://schmas.android.com/apk/res/android">
+	<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+		android:duration="5000"
+		android:fromAlpha="1.0"
+		android:repeatCount="2"
+		android:toAlpha="0.0" />
+	<scale xmlns:android="http://schemas.android.com/apk/res/android"
+		android:duration="5000"
+		android:fromXScale="1.0"
+		android:fromYScale="1.0"
+		android:pivotX="0%"
+		android:pivotY="0%"
+		android:repeatCount="2"
+		android:toXScale="0.0"
+		android:toYScale="0.0" />
+</set>
+
 
