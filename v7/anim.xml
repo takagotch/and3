@@ -56,4 +56,24 @@
 		android:toYScale="0.0" />
 </set>
 
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:ordering="sequentially">
+	<set>
+	  <objectAnimator
+		android:propertyName="translateX"
+		android:duration="5000"
+		android:valueFrom="0"
+		android:valueTo="200" />
+	  <objectAnimator
+		android:propertyName="translationY"
+		android:duration="5000"
+		android:valueFrom="0"
+		android:valueTo="500" />
+	</set>
+<objectAnimatior
+	android:propertyName="alpha"
+	android:duration="5000"
+	android:valueFrom="1f"
+	android:valueTo="Of" />
+</set>
 
