@@ -13,8 +13,17 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void btn_onClick(View view){
+    //
+    EditText txtName = (EditText)findViewById(R.id.txtName);
     DialogFragment dialog = new MyDialogFragment();
     dialog.show(getFragmentManager(), "dialog_basic");
+
+    //
+    Bundle args = new Bundle();
+    args.putString("txtName", txtName.getText().toString());
+    dialog.setArguments(args);
+    dialog.show(getFragmentManager(), "dialog_basic");
+
   }
 }
 
