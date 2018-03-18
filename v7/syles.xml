@@ -1,0 +1,8 @@
+<resources>
+	<style name="TkyTheme" parent="android:Theme.Black">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textSize">100sp</item>
+	</style>
+
+</resources>
+
