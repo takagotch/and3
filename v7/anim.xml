@@ -4,7 +4,7 @@
 	android:fromAlpha="1.0"
 	android:repeatCount="10"
 	android:repeatMode="reverse"
-	android:toAlpha="0.3"
+	android:toAlpha="0.3">
 </alpha>
 
 <sacle xmlns:android="http://schmas.android.com/apk/res/android"
@@ -16,7 +16,16 @@
 	android:repeatCount="2"
 	android:repeatMode="reverse"
 	android:toXScale="0.5"
-	android:toYScale="0.5"
+	android:toYScale="0.5">
 </scale>
+
+<rotate xmlns:android="http://schmas.android.com/apk/res/android"
+	android:duration="5000"
+	android:fromDegrees="0"
+	android:pivotX="550"
+	android:pivotY="400"
+	android:repeatCount="1"
+	android:toDegrees="180">
+</rotate>
 
 
