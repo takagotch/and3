@@ -5,5 +5,10 @@
 	android:supportsRtl="true"
 	android:theme="@style/TkyTheme" >
 
+	<activity
+		android:name=".MainActivity"
+		android:theme="@style/TkyTheme" >
+	</activity>
+
 </application>
 
