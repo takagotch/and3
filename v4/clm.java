@@ -8,3 +8,6 @@ list.setOnItemLongClickListener(
   }
 );
 
+
+list.setSelectioni(10);
+
