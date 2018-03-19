@@ -4,7 +4,8 @@
 	<ListView
 		android:id="@+id/android:list"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content" />
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/search" />
 	<TextView
 		android:id="@+id/android:empty"
 		android:layout_width="match_parent"
@@ -15,6 +16,13 @@
 		android:id="@+id/elv"
 		android:layout_width="match_content"
 		android:layout_height="wrap_content" />
+
+	<SearchView
+		android:id="@+id/search"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:iconifiedByDefault="false"
+		android:queryHint="SEARCH" />
 
 </RelativeLayout>
 
