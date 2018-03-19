@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
     data.add("d");
     adapter = new ArrayAdapter<>(
 	this, android.R.layout.simple_list_item_single_choice, data);
+    //
+    //adapter = new ArrayAdapter<>(
+    //	this, android.R.layout.simple_list_item_multiple_chice,data);
+
     list = (ListView) findViewById(R.id.list);
     list.setAdapter(adapter);
 
@@ -36,6 +40,17 @@ public class MainActivity extends AppCompatActivity {
 		Toast.makeText(MainActivity.this,
 		  String.format("%s", msg.toString()),
 		  Toast.LENGTH_SHORT).show();
+		//
+		//String msg = "SELECT";
+		//for(itn i = 0; i < list.getChildCount(); i++){
+		//  CheckedTextView check = (CheckedTextView) list.getChildAt(i);
+		//  if(check.isChecked()){
+		//    msg += check.getText() + ",";
+		//  }
+		//}
+		//msg = msg.substring(0, msg.length() - 1);
+		//Toast.makeText(MainActivity.this, msg, Toast.LENGTH_LONG).show();
+		//
 	  }
 	}
 	);
