@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" >
+	<CheckBox
+		android:id="@id/chk"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_conent"
+		android:checked="true"
+		android:text="NOTICE" />
+
+	<ToggleButton
+		android:id="@+id/toggle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:checked="true"
+		android:textOff="OFF"
+		android:textOn="ON" />
+
+	<RadioGroup
+		android:id="@+id/rgroup"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<RadioButton
+			android:id="@+id/rb1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="Windows" />
+		<RadioButton
+			android:id="@+id/rb2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Linux" />
+		<RadioButton
+			android:id="@+id/rb3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="OS X" />
+	</RadioButton>
+
+</RelativeLayout>
+
