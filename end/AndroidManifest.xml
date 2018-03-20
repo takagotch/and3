@@ -1,0 +1,8 @@
+<manifest>
+	<application>
+		<service android:name=".SimpleService" />
+
+	</application>
+
+</manifest>
+
