@@ -1,0 +1,7 @@
+<Button
+	android:id="@+id/btn"
+	android:background="@drawable/btn4"
+	android:text="SEND"
+	android:textColor="@android:color/white"
+	android:textSize="30dp" />
+
