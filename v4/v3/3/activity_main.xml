@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schmas.android.com/tools" >
+	<RatingBar
+		android:id="@+id/rating"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:numStars="6"
+		android:rating="4"
+		android:stepSize="0.5" />
+
+	<Button
+		android:id="@+id/btnBbs"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="btn_onclick"
+		android:text="HOME" />
+	<Button
+		android:id="@+id/btnBbs"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/btnHome"
+		android:onClick="btn_onclick"
+		android:text="BOARD" />
+	<Button
+		android:id="@+id/btnHelp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/btnBbs"
+		android:onClick="btn_onclick"
+		android:text="HELP" />
+	<WebView
+		android:id="@+id/wv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/btnHelp" />
+</RelativeLayout>
+
