@@ -1,0 +1,9 @@
+<resources>
+	<string name="spnOs_prompt"></string>
+	<string-array name="spnOs_item">
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+</resources>
+

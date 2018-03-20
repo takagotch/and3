@@ -38,5 +38,20 @@
 			android:text="OS X" />
 	</RadioButton>
 
+	<SeekBar
+		android:id="@+id/seek"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:max="300"
+		android:progress="150" />
+
+	<Spinner
+		android:id="@+id/spnOs"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:entries="@array/spnOs_item"
+		android:prompt="@string/spnOs_prompt"
+		android:spinnerMode="dialog" />
+
 </RelativeLayout>
 

@@ -11,4 +11,10 @@
 		android:checked="true" />
 </RelativeLayout>
 
+<SeekBar
+	android:id="@+id/seek"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:max="20" />
+
 
